@@ -31,3 +31,40 @@ if ( $_SERVER["REQUEST_METHOD"] == "POST" ) {
 }
 ?>
 ```
+
+- ### 簡単なスマホ対応
+```css
+@media screen and ( min-width:480px ) {
+
+    #body {
+        width: 800px;
+        height: 150px;
+    }
+
+    #content {
+        margin: 26px;
+    }
+
+    .entry {
+        width:600px;
+    }
+}
+
+/* スマホ 用 */
+@media screen and ( max-width:479px ) {
+
+    #body {
+        width: 100%;
+        height: 80px;
+    }
+
+    #content {
+        margin: 0px;
+    }
+
+    .entry {
+        width:100%;
+    }
+
+}
+```
