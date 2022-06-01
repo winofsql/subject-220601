@@ -31,7 +31,7 @@ if ( $_SERVER["REQUEST_METHOD"] == "POST" ) {
 }
 ?>
 ```
-- ### IFRAME 用 CSS
+- ### IFRAME 用 CSS ( iframe-css.php )
 ```css
 @charset "utf-8";
 
